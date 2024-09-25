@@ -88,13 +88,13 @@ asdf executa uma verificação das versões das ferramentas a serem utilizadas a
 <h3>Versões globais</h3>
 Os padrões globais são gerenciados em <strong>$HOME/.tool-versions</strong>. Defina uma versão global através do comando:
 
-<pre>asdf global nodejs latest</pre>
+<pre>asdf global php latest</pre>
 
 <h3>Versões locais</h3>
 A versão local só precisar ser definida caso queira utilizar uma versão diferente da global.
 
 Versões locais são definidas no arquivo <strong>$PWD/.tool-versions</strong> (seu diretório atual). Geralmente, será um repositório Git para um projeto. Quando estiver no diretório desejado, execute:
-<pre>asdf local nodejs versão-que-precisar</pre>
+<pre>asdf local php versão-que-precisar</pre>
 
 
 
