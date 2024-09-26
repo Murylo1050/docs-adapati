@@ -83,6 +83,8 @@ Vamos instalar somente a última versão disponível, utilizando a tag latest:
 
 <pre>asdf install php latest</pre>
 
+Obs.: O PHP vai ser compilado na sua maquina então se começar a aparecer varias coisas no terminal não se assuste kkkkk. Essa compilação pode demorar um pouqinho então apenas aguarde o processo terminar com o terminal aberto.
+
 <h2>Definindo uma versão</h2>
 asdf executa uma verificação das versões das ferramentas a serem utilizadas através do arquivo <strong>.tool-versions</strong> presente desde diretório atual, até o diretório $HOME. A varredura ocorre no momento em que você executa uma ferramenta que o asdf gerencia.
 
